@@ -552,6 +552,11 @@ a.navlinksmobile{
     }
 }
 
+@media(max-width:1200px){
+    #allrulespara_alt{
+        font-size:35px;
+    }
+}
 
 @media (max-width: 1300px){
     #pnotes_container_alt{
