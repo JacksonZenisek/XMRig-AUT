@@ -1,0 +1,566 @@
+/*ALL Pages CSS*/
+
+
+header.mainpageheader{
+    margin:-8px;
+    height:200px;
+    width:auto;
+    background-color: rgb(255, 233, 203);
+}
+
+img.monerolog{
+    height:200px;
+    width:200px;
+}
+
+div.maintitle_container{
+    height: 150px;
+    width:1000px;
+    border:2px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    margin-top: -200px;
+}
+
+h1.xmrigautotitle{
+    text-align:center;
+    font-size:70px;
+}
+
+div.homepgmain_contianer{
+    height:auto;
+    width:auto;
+    border:1px solid red;
+    margin-top:10px;
+}
+
+div.menulinks_main_container{
+    height:100px;
+    width: 1000px;
+    border: 1px solid blue;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+div.howtodwnldlink{
+    height:100px;
+    width:250px;
+    border:1px solid green;
+    text-align:center;
+}
+
+div.instructlink{
+    height:100px;
+    width:250px;
+    border:1px solid green;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    margin-top:-102px;
+    text-align:center;
+}
+
+div.pnoteslink{
+    height:100px;
+    width:250px;
+    border:1px solid green;
+    float:right;
+    margin-top:-102px;
+    text-align:center;
+}
+
+a.navlinks{
+    font-size:30px;
+    color:black;
+    transition: 0.5s;
+}
+
+a.navlinks:hover{   
+    color:rgb(121, 121, 121);
+}
+
+h2.homepggreeting{
+    text-align:center;
+    margin-top:100px;
+    font-size:60px;
+}
+
+div.homepage_bio_container{
+    width:1100px;
+    height:auto;
+    border: 1px solid red;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+p.homepage_bio{
+    font-size:30px;
+}
+
+div.quicklinks_container{
+    margin-top:100px;
+    height:auto;
+    width:1000px;
+    border:1px solid blue;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+h3.qlinksheading{
+    text-align:center;
+    font-size:50px;
+}
+
+p.qlinkspara{
+    font-size:30px;
+}
+
+footer.all_pages_foot{
+    height:200px;
+    width:auto;
+    border-top:3px solid black;
+    margin:-8px;
+    margin-top:20px;
+    text-align:center;
+    font-size:30px;
+}
+
+
+/*Home Page CSS*/
+
+a.navlinks{
+    font-size:30px;
+    color:black;
+    transition: 0.5s;
+}
+
+a.navlinks:hover{   
+    color:rgb(121, 121, 121);
+}
+
+h2.homepggreeting{
+    text-align:center;
+    margin-top:100px;
+    font-size:60px;
+}
+
+div.homepage_bio_container{
+    width:1100px;
+    height:auto;
+    border: 1px solid red;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+p.homepage_bio{
+    font-size:30px;
+}
+
+div.quicklinks_container{
+    margin-top:100px;
+    height:auto;
+    width:1000px;
+    border:1px solid blue;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+h3.qlinksheading{
+    text-align:center;
+    font-size:50px;
+}
+
+p.qlinkspara{
+    font-size:30px;
+}
+
+
+
+/*Download Page CSS*/
+
+div.downldpgmain_contianer{
+    height:auto;
+    width:auto;
+    border:1px solid red;
+    margin-top:10px;
+}
+
+div.instruct_container{
+    height:auto;
+    width:1100px;
+    border:1px solid green;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+p.instructions_para{
+    font-size:30px;
+}
+
+span.downloadlinandwindcomm{
+    font-size:18px;
+    background-color:yellow;
+}
+
+a.dwnldxmrigautlink{
+    font-size:30px;
+    color:black;
+    text-underline-offset: 8px;
+    transition:0.5s;
+}
+
+a.dwnldxmrigautlink:hover{
+    color:rgb(112, 112, 112);
+}
+
+
+/*Instructions Page CSS*/
+
+h3.navtreeheading{
+    text-align:center;
+    font-size:50px;
+}
+
+img.treepic{
+    height:800px;
+    width:1200px;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+div.generalinstructions_container{
+    height:auto;
+    width:1200px;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    border:1px solid blue;
+}
+
+p.allrulespara{
+    font-size:30px;
+}
+
+a.dwnldinstructfile{
+    font-size:30px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    text-underline-offset: 8px;
+    color:black;
+    margin-top:100px;
+    transition:0.5s;
+}
+
+a.dwnldinstructfile:hover{
+    color:rgb(83, 83, 83);
+}
+
+img.allinstructpics1{
+    height:200px;
+    width:400px;
+}
+
+img.allinstructpics2{
+    height:150px;
+    width:700px;
+}
+
+img.allinstructpics3{
+    height:225px;
+    width:700px;
+}
+
+
+
+/*Patch Notes Page CSS*/
+
+div.pnotespage_contianer{
+    height:auto;
+    width:auto;
+    border:1px solid red;
+    margin-top:10px;
+}
+
+div.pnotes_container{
+    height: 1000px;
+    width: 1200px;
+    border:1px solid green;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    margin-top:50px;
+}
+
+p.pnotespara{
+    text-align:center;
+    font-size:30px;
+}
+
+
+
+
+
+/*Mobile Design CSS*/
+
+div.mobilelinksmenu{
+    height:200px;
+    width:auto;
+    background-color:rgb(216, 216, 216);
+    display:none;
+}
+
+button.mobilemenubut{
+    height:150px;
+    width:250px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display: none;
+    background-color:transparent;
+}
+
+
+button.mobilemenubutup{
+    height:150px;
+    width:250px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display: none;
+    background-color:transparent;
+}
+
+img.arrowic1{
+    height:150px;
+    width:150px;
+    border:1px solid transparent;
+    display:none;
+}
+
+img.arrowic2{
+    height:150px;
+    width:150px;
+    border:1px solid transparent;
+    display:none;
+}
+
+div.mobilemenu_container{
+    height:0px;
+    width:auto;
+    background-color:rgb(216, 216, 216);
+    display:none;
+    transition:0.5s;
+}
+
+a.navlinksmobile{
+    font-size:40px;
+    color:black;
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+    text-align:center;
+    margin-top:50px;
+}
+
+
+/*-------------------Media Querries------------------*/
+
+
+
+/*Home Page media querries*/
+
+@media(max-width:1600px){
+    #maintitle_container_alt{
+        width:600px;
+    }
+}
+
+@media(max-width:1600px){
+    #xmrigautotitle_alt{
+        font-size:40px;
+        margin-top:60px;
+    }
+}
+
+@media(max-width:1600px){
+    #xmrigautotitle_alt{
+        font-size:40px;
+        margin-top:60px;
+    }
+}
+
+
+@media(max-width:1600px){
+    #homepggreeting_alt{
+        font-size:40px;
+    }
+}
+
+
+@media(max-width:1600px){
+    #homepage_bio_container_alt{
+        width:900px;
+    }
+}
+
+@media (max-width: 1200px){
+    #quicklinks_container_alt{
+        width:800px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #instruct_container_alt{
+        width:800px;
+    }
+}
+
+@media(max-width:1100px){
+    #menulinks_main_container_alt{
+        display:none;
+    }
+}
+
+@media(max-width:1100px){
+    #mobilelinksmenu_alt{
+        display:block;
+    }
+}
+
+@media(max-width:1100px){
+    #mobilemenubut_alt,#arrowic1_alt{
+        display:block;
+    }
+}
+
+@media(max-width:1100px){
+    #monerolog_alt{
+        display:none;
+    }
+}
+
+@media(max-width:1100px){
+    #maintitle_container_alt{
+        margin-top:-1px;
+    }
+}
+
+@media(max-width:1100px){
+    #homepage_bio_container_alt{
+        width:700px;
+    }
+}
+
+@media (max-width: 1200px){
+    #quicklinks_container_alt{
+        width:700px;
+    }
+}
+
+@media (max-width: 1200px){
+    #homepage_bio_alt{
+        font-size:25px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #qlinkspara_alt{
+        font-size:25px;
+    }
+}
+
+@media (max-width: 1200px){
+    #homepggreeting_alt{
+        font-size:30px;
+    }
+}
+
+@media(max-width:900px){
+    #instruct_container_alt{
+        width:600px;
+    }
+}
+
+
+@media(max-width:800px){
+    #instructions_para_alt{
+        font-size:25px;
+    }
+}
+
+
+@media(max-width:800px){
+    #homepage_bio_container_alt{
+        width:600px;
+    }
+}
+
+@media (max-width: 800px){
+    #quicklinks_container_alt{
+        width:600px;
+    }
+}
+
+@media (max-width: 1300px){
+    #generalinstructions_container_alt{
+        width:800px;
+    }
+}
+
+@media (max-width: 1300px){
+    #treepic_alt{
+        width:800px;
+        height:700px;
+    }
+}
+
+@media(max-width:900px){
+    #generalinstructions_container_alt{
+        width:650px;
+    }
+}
+
+@media(max-width:900px){
+    #treepic_alt{
+        width:650px;
+        height:500px;
+    }
+}
+
+@media(max-width:900px){
+    #allinstructpics2_alt,#allinstructpics3_alt{
+        height: 150px;
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 1300px){
+    #pnotes_container_alt{
+        width:1000px;
+    }
+}
+
+@media (max-width: 1100px){
+    #pnotes_container_alt{
+        width:800px;
+    }
+}
+
+@media (max-width: 900px){
+    #pnotes_container_alt{
+        width:600px;
+    }
+}
