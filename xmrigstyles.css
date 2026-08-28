@@ -16,7 +16,7 @@ img.monerolog{
 div.maintitle_container{
     height: 150px;
     width:1000px;
-    border:2px solid black;
+    border:2px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -31,14 +31,14 @@ h1.xmrigautotitle{
 div.homepgmain_contianer{
     height:auto;
     width:auto;
-    border:1px solid red;
+    border:1px solid transparent;
     margin-top:10px;
 }
 
 div.menulinks_main_container{
     height:100px;
     width: 1000px;
-    border: 1px solid blue;
+    border: 1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -47,14 +47,14 @@ div.menulinks_main_container{
 div.howtodwnldlink{
     height:100px;
     width:250px;
-    border:1px solid green;
+    border:1px solid transparent;
     text-align:center;
 }
 
 div.instructlink{
     height:100px;
     width:250px;
-    border:1px solid green;
+    border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -65,7 +65,7 @@ div.instructlink{
 div.pnoteslink{
     height:100px;
     width:250px;
-    border:1px solid green;
+    border:1px solid transparent;
     float:right;
     margin-top:-102px;
     text-align:center;
@@ -90,7 +90,7 @@ h2.homepggreeting{
 div.homepage_bio_container{
     width:1100px;
     height:auto;
-    border: 1px solid red;
+    border: 1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -104,7 +104,7 @@ div.quicklinks_container{
     margin-top:100px;
     height:auto;
     width:1000px;
-    border:1px solid blue;
+    border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -151,7 +151,7 @@ h2.homepggreeting{
 div.homepage_bio_container{
     width:1100px;
     height:auto;
-    border: 1px solid red;
+    border: 1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -165,7 +165,7 @@ div.quicklinks_container{
     margin-top:100px;
     height:auto;
     width:1000px;
-    border:1px solid blue;
+    border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -187,14 +187,14 @@ p.qlinkspara{
 div.downldpgmain_contianer{
     height:auto;
     width:auto;
-    border:1px solid red;
+    border:1px solid transparent;
     margin-top:10px;
 }
 
 div.instruct_container{
     height:auto;
     width:1100px;
-    border:1px solid green;
+    border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
@@ -242,7 +242,7 @@ div.generalinstructions_container{
     margin-right:auto;
     margin-left:auto;
     display: block;
-    border:1px solid blue;
+    border:1px solid transparent;
 }
 
 p.allrulespara{
@@ -287,14 +287,14 @@ img.allinstructpics3{
 div.pnotespage_contianer{
     height:auto;
     width:auto;
-    border:1px solid red;
+    border:1px solid transparent;
     margin-top:10px;
 }
 
 div.pnotes_container{
     height: 1000px;
     width: 1200px;
-    border:1px solid green;
+    border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
     display: block;
