@@ -470,14 +470,14 @@ a.navlinksmobile{
 
 @media (max-width: 1200px){
     #homepage_bio_alt{
-        font-size:25px;
+        font-size:30px;
     }
 }
 
 
 @media (max-width: 1200px){
     #qlinkspara_alt{
-        font-size:25px;
+        font-size:30px;
     }
 }
 
@@ -496,7 +496,7 @@ a.navlinksmobile{
 
 @media(max-width:800px){
     #instructions_para_alt{
-        font-size:25px;
+        font-size:30x;
     }
 }
 
