@@ -493,6 +493,12 @@ a.navlinksmobile{
     }
 }
 
+@media(max-width:1200px){
+    #instructions_para_alt{
+        font-size:35px;
+    }
+}
+
 
 @media(max-width:800px){
     #instructions_para_alt{
