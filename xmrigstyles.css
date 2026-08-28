@@ -564,6 +564,12 @@ a.navlinksmobile{
     }
 }
 
+@media(max-width:1200px){
+    #dwnldinstructfile_alt{
+        font-size:35px;
+    }
+}
+
 @media (max-width: 1100px){
     #pnotes_container_alt{
         width:800px;
