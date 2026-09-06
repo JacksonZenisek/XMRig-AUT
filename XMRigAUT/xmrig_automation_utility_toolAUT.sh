@@ -15,7 +15,8 @@ echo "Choose an option:"
 echo "1) Install XMRig"
 echo "2) Run XMRig"
 echo "3) Generate new Monero wallet"
-echo "4) View user guide"
+echo "4) View wallet keys"
+echo "5) View user guide"
 read mainmenselopt
 
 
@@ -42,7 +43,7 @@ fi
 if ((installxmrigchoice==1)); then
 sleep 3
 printdir=$(pwd)
-echo "Are you sure you want to install XMRig in $printdir ? y = 1/n = 2"
+echo "Are you sure you want to install XMRig in $printdir ? 1 = yes/2 = no:"
 read doublechecker
 
 fi
@@ -81,7 +82,7 @@ echo "$showfolders"
 echo " "
 echo "Enter the directory that you want to install XMRig in:"
 read entereddir
-echo "Are you sure you want to install XMRig in $entereddir ? y = 1/n = 2"
+echo "Are you sure you want to install XMRig in $entereddir ? 1 = yes/2 = no:"
 read doublecheckertwooption
 
 fi
@@ -146,7 +147,7 @@ echo " "
 echo "What would you like to name your miner?"
 read minername
 echo " "
-echo "Would you like to run XMRig under admin previlages? Running it under admin may increase mining speed. y = 1/n = 2:"
+echo "Would you like to run XMRig under admin previlages? Running it under admin may increase mining speed. 1 = yes/2 = no:"
 read adminprev
 
 elif ((wherexmriginstalled==2)); then
@@ -179,8 +180,8 @@ read portenter
 echo " "
 echo "What would you like to name your miner?"
 read minername
-echo" "
-echo "Would you like to run XMRig under admin previlages? Running it under admin may increase mining speed. y = 1/n = 2:"
+echo " "
+echo "Would you like to run XMRig under admin previlages? Running it under admin may increase mining speed. 1 = yes/2 = no:"
 read adminprev
 
 fi
@@ -200,7 +201,21 @@ read walletgendirchoice
 fi
 
 
+
+# View wallet keys option
+
 if ((mainmenselopt==4)); then
+echo " "
+echo "Before you proceed to viewing wallet keys, are you in an environment where only you can view the wallet keys? (1 = yes/2 = no)"
+read privacyprompt
+
+fi
+
+
+
+# VIew user guide option
+
+if ((mainmenselopt==5)); then
 echo " "
 echo " "
 echo "------------------------------"
@@ -249,7 +264,29 @@ echo " "
 fi
 
 
+if ((privacyprompt==1)); then
+echo "Searching for wallet keys, please wait..."
+echo " "
+sleep 3
+findwalkeyfiles=$(sudo find /home -type f -name "*xmrgeneatedwallK_*" 2>/dev/null)
+echo "Here are your wallet keys:"
+echo "$findwalkeyfiles"
+echo " "
+echo "Copy and paste the directory and wallet key that you would like to view:"
+read walletkeytoview
+echo " "
+echo "The wallet key for $walletkeytoview is:"
+echo " "
+cat $walletkeytoview
 
+
+elif ((privacyprompt==2)); then
+echo " "
+echo "Please come back where no one but you can view the wallet keys."
+
+exit
+
+fi
 
 
 if ((walletgendirchoice==1)); then
@@ -303,7 +340,7 @@ echo " "
 cd $findxmrigwalgen
 sudo ./monero-wallet-cli
 echo " "
-echo "Would you like to save your wallet key to a file? y = 1/n = 2:"
+echo "Would you like to save your wallet key to a file? 1 = yes/2 = no:"
 read savekeychoice
 fi
 
@@ -324,7 +361,7 @@ echo " "
 echo "What directory would you like to save the file?:"
 read savekeydirect
 cd $savekeydirect
-getdate=$(date)
+getdate=$(date +%m%d%Y)
 
 echo "$vdfvdvddcvregehbe" > "xmrgeneatedwallK_$getdate.txt"
 echo " "
@@ -370,6 +407,7 @@ sudo ./xmrig -o gulf.moneroocean.stream:$portenter -u $walKy -p $minername
 fi
 
 }
+
 
 # Call functions
 mainmenu
