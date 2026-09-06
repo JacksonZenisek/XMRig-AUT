@@ -2,7 +2,7 @@
 # A hopefully helpful utility tool for xmrig miners.
 # Developed by Jackson Zenisek
 # V1.1
-# Last updated: 8/27/2026
+# Release date: 8/27/2026
 
 mainmenu() {
 echo "----------------------------"
