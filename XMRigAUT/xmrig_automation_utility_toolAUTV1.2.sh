@@ -7,7 +7,7 @@
 mainmenu() {
 echo "----------------------------"
 echo "XMRIG UTILITY TOOL"
-echo "V1.1"
+echo "V1.2"
 echo "Developed by Jackson Zenisek"
 echo "----------------------------"
 echo " "
