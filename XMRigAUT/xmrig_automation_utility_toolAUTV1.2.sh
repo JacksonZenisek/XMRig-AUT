@@ -1,7 +1,7 @@
 #!/bin/bash
 # A hopefully helpful utility tool for xmrig miners.
 # Developed by Jackson Zenisek
-# V1.1
+# V1.2
 # Release Date: 09/06/2026
 
 mainmenu() {
