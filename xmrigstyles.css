@@ -639,3 +639,9 @@ a.navlinksmobile{
         font-size:14px;
     }
 }
+
+@media (max-width: 1150px){
+    #olderversionsourcedownloads_alt{
+        font-size:12px;
+    }
+}
