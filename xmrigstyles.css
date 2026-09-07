@@ -633,3 +633,16 @@ a.navlinksmobile{
         display: block;
     }
 }
+
+@media (max-width: 1150px){
+    #downloadlinandwindcomm_alt{
+        font-size:14px;
+    }
+}
+
+
+@media (max-width: 1150px){
+    #olderversionsourcedownloads_alt{
+        font-size:13px;
+    }
+}
